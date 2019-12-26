@@ -4,6 +4,14 @@
   "description": "A simple and small react library in order to create a loading text skeleton that either blurs out a dummy text or displays a loading gradient until the loaded text is provided.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Techbinator/skeleton-text.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Techbinator/skeleton-text/issues"
+  },
+  "homepage": "https://github.com/Techbinator/skeleton-text#readme",
   "scripts": {
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
