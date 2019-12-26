@@ -1,0 +1,46 @@
+.gradient,
+.gradient * {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-90deg, #f0f0f0 0%, #f8f8f8 50%, #f0f0f0 100%);
+  background-size: 400% 400%;
+  animation: pulse 1.2s ease-in-out infinite;
+  padding: 0 1px;
+  border-radius: 4px;
+  color: transparent;
+  user-select: none;
+}
+
+.blurred,
+.blurred * {
+  color: transparent !important;
+  text-shadow: 0 0 5px rgba(0, 0, 255, 0.4) !important;
+  animation: blur 2s ease-out infinite;
+}
+
+@keyframes blur {
+  0% {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+  25% {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+  75% {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}

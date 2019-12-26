@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`skeleton-text should add class names next to the skeleton type class 1`] = `
+<span
+  className="gradient passed-class-name extra-class-name"
+>
+  dummy text
+</span>
+`;
+
+exports[`skeleton-text should display the final text if children prop is passed 1`] = `
+<span
+  className=""
+>
+  Final text
+</span>
+`;
+
+exports[`skeleton-text should render the dummy text with blurred class by default 1`] = `
+<span
+  className="blurred"
+>
+  dummy text
+</span>
+`;
+
+exports[`skeleton-text should render the dummy text with gradient class 1`] = `
+<span
+  className="gradient"
+>
+  dummy text
+</span>
+`;
