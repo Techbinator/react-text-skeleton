@@ -1,7 +1,7 @@
 {
   "name": "skeleton-text",
   "version": "1.0.0",
-  "description": "A simple and small react library in order to create a text skeleton that either blurs out a dummy text or displays a loading gradient until the loaded text is provided.",
+  "description": "A simple and small react library in order to create a loading text skeleton that either blurs out a dummy text or displays a loading gradient until the loaded text is provided.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -15,14 +15,13 @@
     "test:coverage": "jest --coverage"
   },
   "keywords": [
-    "react",
-    "typescript",
-    "npm",
-    "boilerplate",
-    "jest",
-    "npm",
-    "modules",
-    "boilerplate"
+    "text skeleton",
+    "loading skeletion",
+    "loading text skeletion",
+    "blurred text",
+    "gradient text",
+    "loading gradient text",
+    "loading blurred text"
   ],
   "author": "Tudor Filipovici @techbinator",
   "license": "MIT",
@@ -42,9 +41,7 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
-    "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-postcss-modules": "^2.0.1",
-    "rollup-plugin-scss": "^2.1.0",
     "rollup-plugin-typescript2": "^0.25.3",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.3"

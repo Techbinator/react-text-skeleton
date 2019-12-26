@@ -8,9 +8,13 @@ interface SkeletonTextProps {
   skeletonType?: 'blurred' | 'gradient';
 }
 
-const SkeletonText: React.SFC<SkeletonTextProps> = ({ dummyText, className, children, skeletonType = 'blurred' }) => {
-  const customClass = className ? ' ' + className : '';
-  const classNames = `${children ? '' : styles[skeletonType]}${customClass}`;
+const SkeletonText: React.SFC<SkeletonTextProps> = ({
+  dummyText,
+  className = '',
+  skeletonType = 'blurred',
+  children,
+}) => {
+  const classNames = `${children ? '' : styles[skeletonType]}${className && ' ' + className}`;
 
   return <span className={classNames}>{children ? children : dummyText}</span>;
 };
