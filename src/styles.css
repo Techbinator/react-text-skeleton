@@ -14,25 +14,25 @@
 .blurred,
 .blurred * {
   color: transparent !important;
-  text-shadow: 0 0 5px rgba(0, 0, 255, 0.4) !important;
+  text-shadow: 0 0 0.4em rgba(0, 0, 255, 0.4) !important;
   animation: blur 2s ease-out infinite;
 }
 
 @keyframes blur {
   0% {
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
   }
   25% {
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.3);
   }
   50% {
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
   }
   75% {
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.3);
   }
   100% {
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
   }
 }
 
