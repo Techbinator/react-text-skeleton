@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/skeleton-text/static/js/main.8d3ec30c.chunk.js",
-    "main.js.map": "/skeleton-text/static/js/main.8d3ec30c.chunk.js.map",
-    "runtime-main.js": "/skeleton-text/static/js/runtime-main.a477533b.js",
-    "runtime-main.js.map": "/skeleton-text/static/js/runtime-main.a477533b.js.map",
-    "static/js/2.38b9edd1.chunk.js": "/skeleton-text/static/js/2.38b9edd1.chunk.js",
-    "static/js/2.38b9edd1.chunk.js.map": "/skeleton-text/static/js/2.38b9edd1.chunk.js.map",
-    "index.html": "/skeleton-text/index.html",
-    "precache-manifest.cd03b83510123796593fcc5baa89bc80.js": "/skeleton-text/precache-manifest.cd03b83510123796593fcc5baa89bc80.js",
-    "service-worker.js": "/skeleton-text/service-worker.js",
-    "static/js/2.38b9edd1.chunk.js.LICENSE": "/skeleton-text/static/js/2.38b9edd1.chunk.js.LICENSE"
+    "main.js": "/react-text-skeleton/static/js/main.23214fe4.chunk.js",
+    "main.js.map": "/react-text-skeleton/static/js/main.23214fe4.chunk.js.map",
+    "runtime-main.js": "/react-text-skeleton/static/js/runtime-main.86a99b7e.js",
+    "runtime-main.js.map": "/react-text-skeleton/static/js/runtime-main.86a99b7e.js.map",
+    "static/js/2.38b9edd1.chunk.js": "/react-text-skeleton/static/js/2.38b9edd1.chunk.js",
+    "static/js/2.38b9edd1.chunk.js.map": "/react-text-skeleton/static/js/2.38b9edd1.chunk.js.map",
+    "index.html": "/react-text-skeleton/index.html",
+    "precache-manifest.93db1f7e994cb1ef4e0692264fa56438.js": "/react-text-skeleton/precache-manifest.93db1f7e994cb1ef4e0692264fa56438.js",
+    "service-worker.js": "/react-text-skeleton/service-worker.js",
+    "static/js/2.38b9edd1.chunk.js.LICENSE": "/react-text-skeleton/static/js/2.38b9edd1.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.a477533b.js",
+    "static/js/runtime-main.86a99b7e.js",
     "static/js/2.38b9edd1.chunk.js",
-    "static/js/main.8d3ec30c.chunk.js"
+    "static/js/main.23214fe4.chunk.js"
   ]
 }
