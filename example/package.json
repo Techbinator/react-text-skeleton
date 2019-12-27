@@ -2,12 +2,12 @@
   "name": "example",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://techbinator.github.io/skeleton-text",
+  "homepage": "https://techbinator.github.io/react-text-skeleton",
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
-    "skeleton-text": "file:.."
+    "react-text-skeleton": "file:.."
   },
   "scripts": {
     "start": "react-scripts start",

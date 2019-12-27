@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import TestPlugin from 'skeleton-text';
+import TestPlugin from 'react-text-skeleton';
 
 const App: React.FC = () => {
   const [dummyText, setDummyText] = useState('Dummy text');
@@ -17,6 +17,8 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
+      <hr />
+      <h2>React text skeleton</h2>
       <hr />
       <h2>Configure</h2>
       <div>

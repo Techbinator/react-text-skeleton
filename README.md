@@ -1,7 +1,7 @@
-# Text skeleton
+# React Text Skeleton
 
 A simple and small react library in order to create a text skeleton that either blurs out a dummy text or displays a loading gradient until the final text is loaded. The advantage is that it the blurred/gradient length is determined by the dummy text that should aproximatelly match the length of the data that is going to be fetched(it also takes in consideration the font-size). This way it creates a nice simple effect without the need of measuring the data that is beining loaded in a fixed pixel ratio.
-Demo: https://techbinator.github.io/skeleton-text
+Demo: https://techbinator.github.io/react-text-skeleton
 
 ## Features
 
@@ -13,14 +13,14 @@ Demo: https://techbinator.github.io/skeleton-text
 
 ## Installation
 
-`npm i skeleton-text`
+`npm i react-text-skeleton`
 
 ## Usage
 
 Add the dummyText prop while having a text similar to the one that is fetched. For example if a price that has 3 digits set the dummyText with a 3 digits number. Once the children prop is provided the blurring and dummy text are replaced with that.
 
 ```js
-<SkeletonText dummyText="Dummy text">{realText}</SkeletonText>
+<TextSkeleton dummyText="Dummy text">{realText}</TextSkeleton>
 ```
 
 dummyText: string;
@@ -29,7 +29,7 @@ skeletonType?: 'blurred' | 'gradient';
 
 # Props
 
-### `<ReactSingleDropdown>`
+### `<TextSkeleton>`
 
 | Name         | Type   | Default   | Description                                                                                                                |
 | ------------ | ------ | --------- | -------------------------------------------------------------------------------------------------------------------------- |
@@ -42,10 +42,10 @@ skeletonType?: 'blurred' | 'gradient';
 ```js
 import React from 'react';
 
-import SkeletonText from 'skeleton-text';
+import TextSkeleton from 'react-text-skeleton';
 
 const App: React.FC = () => {
-  return <SkeletonText dummyText="Dummy text">{loadingText}</SkeletonText>;
+  return <TextSkeleton dummyText="Dummy text">{loadingText}</TextSkeleton>;
 };
 ```
 
