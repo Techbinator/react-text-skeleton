@@ -52,3 +52,5 @@ const App: React.FC = () => {
 ## License
 
 MIT
+
+Module built with the help of https://github.com/Techbinator/react-typescript-npm-boilerplate
